@@ -1,0 +1,25 @@
+.contact-content{
+    /* height: 600px; */
+    background: rgb(241, 229, 231);
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-head {
+    text-decoration: underline;
+    color: rgb(9, 165, 165);
+}
+
+.form-box{
+    margin-bottom: 10px;
+}
+
+.form-box input{
+    width: 50vw;
+    height: 25px;
+}
+.form-box textarea{
+    width: 40vw;
+}

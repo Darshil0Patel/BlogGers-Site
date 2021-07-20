@@ -1,0 +1,47 @@
+@media Screen and (max-width:1200px) {
+    .navigation{
+        /* height: 125px; */
+        /* background-color: red; */
+        flex-direction: column;
+        margin-top: 7px;
+    }
+    .nav-left{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .nav-left ul{
+        margin-top: 5px;
+    }
+    .nav-right{
+        margin-bottom: 5px;
+    }
+    .content-right{
+        display: none;
+    }
+    .home-article{
+        flex-direction: column;
+    }
+    .home-img {
+        text-align: center;
+    }
+    .home-img img{
+        height: 25vw;
+    }
+    .home-content h3{
+        text-align: center;
+    }
+    .home-content{
+        text-align: start;
+    }
+    .about-content{
+        flex-direction: column-reverse;
+    }
+    .about-content-left h2,h5{
+        text-align: center;
+    }
+    .about-content-right img{
+        margin: 0 auto;
+    }
+}
